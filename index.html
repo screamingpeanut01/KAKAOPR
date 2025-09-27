@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwon Taek Kim's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+
+    <!-- Container for the entire page -->
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Header/Navigation -->
+        <header class="py-4">
+            <nav class="flex justify-between items-center">
+                <div class="text-2xl font-bold tracking-tighter">김권택</div>
+                <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-400">
+                    <a href="#portfolio" class="hover:text-amber-400 transition-colors">Portfolio</a>
+                    <a href="#about" class="hover:text-amber-400 transition-colors">Vision</a>
+                    <a href="#career" class="hover:text-amber-400 transition-colors">Experience</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="menu-button" class="text-gray-400 hover:text-white focus:outline-none" aria-expanded="false">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="mobile-nav">
+                <a href="#portfolio" class="block py-2 px-4 text-sm hover:bg-gray-700 rounded">Portfolio</a>
+                <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-700 rounded">Vision</a>
+                <a href="#career" class="block py-2 px-4 text-sm hover:bg-gray-700 rounded">Experience</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- 1. Hero Landing Page Section -->
+            <section id="hero" class="text-center py-20 md:py-32 fade-in-section">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-black tracking-tighter mb-4 hero-gradient-text">
+                    김권택의 포트폴리오
+                </h1>
+                <p class="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 mb-8">
+                    엔터테인먼트와 투자의 가능성을 탐구하고 통찰하는 지원자 김권택의 포트폴리오입니다.
+                </p>
+                <a href="#about" class="inline-block bg-amber-500 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-amber-600 transition-transform transform hover:scale-105">
+                    My Vision
+                </a>
+            </section>
+
+            <!-- 6. Portfolio Section -->
+            <section id="portfolio" class="py-16 md:py-24 fade-in-section">
+                <h2 class="text-3xl font-bold tracking-tight section-title">포트폴리오</h2>
+
+                <!-- Projects Subsection -->
+                <h3 class="text-2xl font-bold mb-6 text-amber-400">프로젝트</h3>
+                <div class="space-y-8">
+                    <!-- Project 1: Graduation Project -->
+                    <div class="project-card">
+                        <h4 class="text-xl font-bold text-white mb-2">졸업 전시 프로젝트 (2025)</h4>
+                        <p class="text-gray-400 mb-4">AI 및 VFX 활용 단편 제작에서 AI 기술 스택 총괄 및 제작 효율화 지원</p>
+                        <img src="https://github.com/screamingpeanut01/LGDISLAB/blob/main/sources/workflow_fin.png?raw=true" alt="AI Workflow for a video project" class="rounded-md my-4 border border-gray-700">
+                        <p class="text-center text-gray-500 text-sm mb-4">졸업 전시 프로젝트에 사용된 AI 활용 단편 제작 워크플로우</p>
+                    </div>
+
+                    <!-- Project 2: Gaudi Hackathon -->
+                    <div class="project-card">
+                        <h4 class="text-xl font-bold text-white mb-2">가우디 재단 미디어 전시 해커톤 (2025) - 2위 수상</h4>
+                        <p class="text-gray-400 mb-4">가우디 철학 기반 체험형 전시 기획 및 AI 기술 지원</p>
+                        <a href="https://drive.google.com/file/d/1KZSOOux_Mxr8JseXjVLiH7SCpNG3TDas/view?usp=sharing" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors">
+                            <span>포트폴리오 보기 →</span>
+                        </a>
+                    </div>
+
+                    <!-- Project 3: PTIT Hackathon -->
+                    <div class="project-card">
+                        <h4 class="text-xl font-bold text-white mb-2">중앙대학교 - PTIT 창업 아이디어 해커톤 (2025) - 3위 수상</h4>
+                        <p class="text-gray-400 mb-4">Gamification 언어교환 어플 기획 및 AI 프로토타입 제작</p>
+                        <a href="https://drive.google.com/file/d/1mpJwyQc2WOv70lDTXkF-h6G0LtsvDbyL/view?usp=sharing" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors">
+                            <span>포트폴리오 보기 →</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Project 4: FLOW -->
+                     <div class="project-card">
+                        <h4 class="text-xl font-bold text-white mb-2">창업집중훈련 FLOW (2025) - 우수상 수상</h4>
+                        <p class="text-gray-400 mb-4">점자단말기와 스마트폰을 이용한 점자 학습 솔루션 사업 기획</p>
+                        <a href="https://drive.google.com/file/d/1ROYnh8smGm24yXtKbXKIo01MqYevpuFV/view?usp=sharing" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors">
+                            <span>포트폴리오 보기 →</span>
+                        </a>
+                    </div>
+
+                    <!-- Project 5: KPOP Analysis -->
+                     <div class="project-card">
+                        <h4 class="text-xl font-bold text-white mb-2">데이터분석학회 학술제 : 데이터 기반 KPOP의 특징 분석 (2024)</h4>
+                        <p class="text-gray-400 mb-4">KPOP 가사 데이터 분석을 통한 핵심 키워드 도출 및 POP과 가사적 특징 비교 분석</p>
+                        <a href="https://drive.google.com/file/d/11pUYKvr5P8gF8ya1dpobFE955GDhYDrI/view?usp=sharing" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors">
+                            <span>포트폴리오 보기 →</span>
+                        </a>
+                    </div>
+
+                    <!-- Project 6: Short-form Hackathon -->
+                     <div class="project-card">
+                        <h4 class="text-xl font-bold text-white mb-2">중앙대학교 가상융합대학 창업아이디어 해커톤 (2024) - 2위 수상</h4>
+                        <p class="text-gray-400 mb-4">사용자 반응 데이터 분석 기반 숏폼 채널 BM 기획 및 프로토타입 제작</p>
+                        <a href="https://drive.google.com/file/d/1kRrlOFA-Am-uFudtdNy6zmNmPotKJ9ka/view?usp=sharing" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors">
+                            <span>포트폴리오 보기 →</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Trend Studies Subsection -->
+                <h3 class="text-2xl font-bold mt-16 mb-6 text-amber-400">기술 및 산업 트렌드 스터디</h3>
+                <div class="space-y-8">
+                    <!-- Study 1: News -->
+                    <div class="study-card">
+                        <h4 class="text-xl font-bold text-white mb-2">기술 및 산업 뉴스</h4>
+                        <p class="text-gray-400 mb-4">군시절 뉴스 스터디를 시작하여, 점차 방식을 정제해나갔습니다.</p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="https://soapy-license-74f.notion.site/News-studies-2023-24-03-f0e31afd03c540c387de13b645843a60?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors"><span>2023~2024</span></a>
+                            <a href="https://soapy-license-74f.notion.site/News-studies-2025-Feb-19aad2e3589480c39bd0d4353653969a?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors"><span>2025년 2월 이후</span></a>
+                        </div>
+                    </div>
+                    <!-- Study 2: AI Tools -->
+                    <div class="study-card">
+                        <h4 class="text-xl font-bold text-white mb-2">AI 도구 스터디</h4>
+                        <p class="text-gray-400 mb-4">졸업전시 프로젝트를 통해 생성형 AI의 가능성을 보고 스터디를 시작했습니다.</p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="https://soapy-license-74f.notion.site/AI-tools-1dcad2e35894805ca16aff0860eba536?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors"><span>툴 스터디 페이지</span></a>
+                            <a href="https://soapy-license-74f.notion.site/update20250821-256ad2e3589480279867c05cc063df3b?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors"><span>스터디 예시 (20250821)</span></a>
+                            <a href="https://soapy-license-74f.notion.site/update20250807-249ad2e35894808aa9b5f09e67847c90?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors"><span>스터디 예시 (20250807)</span></a>
+                            <a href="https://soapy-license-74f.notion.site/update20250701-1f5ad2e358948055ad14e2becd19b231?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors"><span>스터디 예시 (20250701)</span></a>
+                        </div>
+                    </div>
+                    <!-- Study 3: Reports & Articles -->
+                    <div class="study-card">
+                        <h4 class="text-xl font-bold text-white mb-2">콘텐츠 산업 보고서 및 아티클</h4>
+                        <p class="text-gray-400 mb-4">KOCCA등에서 발행하는 기관지와 각종 아티클을 읽고 참고하여 정리하고 있습니다.</p>
+                        <div class="flex flex-wrap gap-4">
+                             <a href="https://soapy-license-74f.notion.site/1c4ad2e35894805f842ecca3b369f085?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors text-sm"><span>스터디예시1 : &lt;토큰 증권과 콘텐츠 투자의 새로운 가능성&gt;</span></a>
+                             <a href="https://soapy-license-74f.notion.site/217ad2e3589480aabb6bda8db103d74e?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors text-sm"><span>스터디예시2: &lt;초현지화 전략을 통한 글로벌 시장 공략기&gt;</span></a>
+                             <a href="https://soapy-license-74f.notion.site/Vol-27-K-e2418be21c48455786757cd2dae27941?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors text-sm"><span>스터디예시3: &lt;Vol.27 K-애니메이션에 날개를 달다&gt;</span></a>
+                             <a href="https://soapy-license-74f.notion.site/AI-224ad2e35894802ebaa8da94504d336f?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors text-sm"><span>스터디예시4: &lt;AI 기술 발전이 창작에 미치는 영향&gt;</span></a>
+                             <a href="https://soapy-license-74f.notion.site/AI-1f5ad2e3589480c384d1c565a2862c3b?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors text-sm"><span>스터디예시5: &lt;음악산업과 AI&gt;</span></a>
+                             <a href="https://soapy-license-74f.notion.site/3-ae2fe8c9ba4f4ae6b737b8fdc84a6115?source=copy_link" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-lg transition-colors text-sm"><span>스터디예시6 : &lt;엔터테인먼트 사이언스 : 엔터테인먼트 상품의 특징&gt;</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 3. AI Vision Section -->
+            <section id="about" class="py-16 md:py-24 fade-in-section">
+                <h2 class="text-3xl font-bold tracking-tight section-title">엔터테인먼트 산업과 기술에 따른 투자 방식에 대한 비전</h2>
+                <div class="prose prose-invert lg:prose-xl max-w-none text-gray-300 space-y-6">
+
+                    <h3 class="text-xl font-bold mt-8 mb-4 text-white">AI, 창작의 패러다임을 바꾸다</h3>
+                    <p>
+                        콘텐츠 산업은 기술주도적 특성으로 인해 AI의 발전에 가장 크게 영향을 받는 분야이며, 인간의 창의성이라는 근본적인 도전을 마주하는 동시에 창작의 효율화와 민주화라는 가능성을 동시에 목도하고 있습니다. 나아가, 이러한 창작의 민주화는 기존의 투자 방식에도 변화를 가져올 것입니다.
+                    </p>
+                    <p>
+                        전통적으로 콘텐츠 산업의 자금 조달은 소수의 잠재적 블록버스터에 자본을 집중하는 벤처캐피탈(VC)이나 프로젝트 파이낸싱(PF)에 크게 의존해왔습니다. 이러한 투자 방식은 본질적으로 고위험-고수익 구조를 띠기 때문에, 흥행 가능성이 불확실하지만 혁신적인 중간 규모의 프로젝트나 신인 창작자들은 자금 조달 시장에서 소외되기 쉬운 구조적 한계를 내포합니다.
+                    </p>
+                    <p>
+                        토큰 증권(STO)과 같은 새로운 자금 조달 방식과 결합하여, 소규모 창작자들도 대규모 프로젝트를 시작할 수 있는 기회를 열어주고, 투자자들에게는 더욱 다양한 콘텐츠에 직접 투자할 수 있는 새로운 길을 제시할 것으로 기대합니다.
+                    </p>
+                    
+                    <h3 class="text-xl font-bold mt-8 mb-4 text-white">데이터 분석을 통한 콘텐츠 인사이트</h3>
+                     <p>
+                        성공적인 콘텐츠는 매력적인 세계관뿐만 아니라, 시장과 팬덤에 대한 깊은 이해를 바탕으로 탄생합니다. 저는 데이터분석학회장 경험과 KPOP 가사 데이터 분석 프로젝트 등을 통하여 데이터 속에서 트렌드와 인사이트를 발견하는 훈련을 해왔습니다. 이러한 데이터 분석 역량을 활용하여 카카오엔터테인먼트 투자 전략에 기여하고 싶습니다.
+                    </p>
+
+                </div>
+            </section>
+ 
+            <!-- 5. List of Careers Section -->
+            <section id="career" class="py-16 md:py-24 fade-in-section">
+                <h2 class="text-3xl font-bold tracking-tight section-title">관련 직무경험</h2>
+                <div class="space-y-8">
+                    <!-- NEW Career Item -->
+                    <div class="relative pl-8">
+                        <h3 class="text-xl font-bold text-white">학회장 <span class="text-gray-400 font-normal">| 중앙대학교 데이터분석학회</span></h3>
+                        <p class="text-sm text-gray-500 mb-2">2025~</p>
+                        <p class="text-gray-400 career-item">중앙대학교 데이터분석 학회장으로써 학회 운영 및 방향성 총괄</p>
+                    </div>
+                    <!-- Career Item 2 -->
+                    <div class="relative pl-8">
+                        <h3 class="text-xl font-bold text-white">자산운용사 리서치어시스턴트 인턴십 <span class="text-gray-400 font-normal">| 베네투스 자산운용</span></h3>
+                        <p class="text-sm text-gray-500 mb-2">2025</p>
+                        <p class="text-gray-400 career-item">투자기업 시장 및 자료조사를 진행. AI 및 콘텐츠 기업 IR 미팅에 참여</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-8 border-t border-gray-700">
+            <p class="text-gray-500">&copy; 2025 김권택. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
